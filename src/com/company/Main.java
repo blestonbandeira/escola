@@ -24,9 +24,9 @@ public class Main {
          */
 
         for (Pessoa obj : pessoas) {
-           if (obj != null && obj instanceof Professor)
-            System.out.println(String.format("O professor %s " +
-                    "tem a categoria %s.", obj.getNome(), ((Professor) obj).getCategoria()));
+            if (obj != null && obj instanceof Professor)
+                System.out.println(String.format("O professor %s " +
+                        "tem a categoria %s.", obj.getNome(), ((Professor) obj).getCategoria()));
         }
 
         /*
